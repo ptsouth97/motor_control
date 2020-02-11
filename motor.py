@@ -2,10 +2,11 @@
 
 # l293d documentation from:  https://github.com/jmsv/l293d
 
+#import l293d.driver as l293d
+import l293d
+
 def main():
 	''' main function'''
-
-	import l293d.driver as l293d
 
 	# Motor 1 uses Pin 22, Pin 18, Pin 16
 	motor = l293d.DC(22,18,16)
