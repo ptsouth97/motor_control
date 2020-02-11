@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 # l293d documentation from:  https://github.com/jmsv/l293d
 
